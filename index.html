@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- End Bootstrap CSS -->
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--End Custom Css-->
+</head>
+
+<body>
+
+
+    <!--Header Start-->
+    <header>
+        <section id="topbar"
+            class="mb-2 mb-lg-0 mb-sm-0 d-none d-lg-flex align-items-center pt-2 pb-2 bg-primary text-white topbar-transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6   text-start">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="smk.png" width="50px" alt=""></a>
+                <h2 class="fw-bold  mb-2 mb-lg-0 mb-sm-0">SMKN 1 MAJALENGKA</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto me-5 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#profil" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Profil
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#about">About Us</a></li>
+                                  <li><a class="dropdown-item" href="#update">Update</a></li>
+                                  <li><a class="dropdown-item" href="#misi">Misi</a></li>
+                                  <li><a class="dropdown-item" href="#jurusan">Jurusan</a></li>
+                                </ul>
+                                </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galerry">Galerry</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
+                        <li class="nav-item">
+                            <a class="nav-link " href="login.html">
+                                <i class="bi bi-person "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+    </header>
+    <!--Header End-->
+
+    <section id="home"></section>
+    <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid w-100 h-100 overflow-hidden" src="s.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>SMKN 1 MAJALENGKA</h5>
+                    <p>Menghasilkan lulusan yang Berkarakter dan Profesional.<br>SMK Bisa, Siap Kerja, Mandiri dan
+                        Kreatif.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid w-100 h-100 overflow-hidden" src="k.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>SMKN 1 MAJALENGKA</h5>
+                    <p>Menghasilkan lulusan yang Berkarakter dan Profesional.<br>SMK Bisa, Siap Kerja, Mandiri dan
+                        Kreatif.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid w-100 h-100 overflow-hidden" src="smkn.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>SMKN 1 MAJALENGKA</h5>
+                    <p>Menghasilkan lulusan yang Berkarakter dan Profesional.<br>SMK Bisa, Siap Kerja, Mandiri dan
+                        Kreatif.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <main id="main">
+        <hr />
+        <!-- ======= About Section ======= -->
+        <section id="about"></section>
+        <section id="profil"></section>
+        <section id="profil" class="about mt-5">
+            <div class="container-fluid">
+                <h2 class="h1-responsive font-weight-bold text-center my-2"><b>Profil</b></h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-1">Berikut Beberapa Informasi Tentang SMKN 1 Majalengka.
+                </p>
+                <div class="row  pt-5 pb-5">
+
+                    <div class="col-lg-5 align-items-stretch video-box">
+                        <iframe width="640" height="640"
+                            src="https://www.youtube.com/embed/SGbMSluQxQs?si=uJ30Dy2Z5X-GzGwd"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <a href="https://youtu.be/SGbMSluQxQs?si=ZpWjZb4_fUfNDo4n" class="venobox play-btn mb-4"
+                            data-vbtype="video" data-autoplay="true"></a>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                        <div class="content">
+                            <h4><b>About Us</b></h4>
+                            <h3>SMKN 1 Majalengka<strong> sebagai penyelenggara pendidikan menengah kejuruan berdiri
+                                    pada 1 Juli 1980 dengan Nomenklatur STM Negeri Majalengka.</strong></h3>
+                            <p>
+                                SMK Negeri 1 Majalengka sampai saat ini telah membuka Program Studi Keahlian/Kompetensi
+                                Keahlian sesuai spektrum keahlian:
+                            </p>
+                            <p class="font-italic">
+                                1. Teknik Bangunan : Teknik Gambar Bangunan<br>
+                                2. Tekni Listrik : Teknik Instalasi Tenaga Listrik<br>
+                                3. Teknik Mesin : Teknik Pemesinan<br>
+                                4. Teknik Otomotif : Teknik Otomotif Kendaraan Ringan dan Teknik Otomotif Sepeda
+                                Motor<br>
+                                5. Teknik Komputer dan Informatika : Teknik Komputer dan jaringan dan Rekayasa Perangkat
+                                Lunak
+                            </p>
+
+                            <p>
+                                Sekolah Menengah Kejuruan (SMK) Negeri 1 Majalengka yang berdiri dengan megah di atas
+                                tanah seluas 40.000 m2 dengan status tanah milik sendiri, terletak di Jalan Raya
+                                Tonjong-Pinangraja No. 55 Kelurahan Cicenang Kecamatan Cigasong Kabupaten Majalengka.
+                                Dengan luas bangunan 6.565 m2.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <hr/>
+            <br>
+            
+            
+
+
+        <section id="update"></section>
+            <div class="row">
+                <h2 class="text-center"><span><b>Latest Update</b></span></h2>
+            </div>
+            <div class="container2">
+                <div class="article">
+                    <img class="foto" src="bru.jpg">
+                    <br>
+                    <h1>Sosialisi Adaptasi Kebiasaan Baru<br>SMKN 1 Majalengka</h1>
+                    <br>
+                    <p><span>Pengumuman</span> -- Mari kita bersosialisasi dan beradaptasi dengan lingkungan...</p>
+                    <br>
+                    <a href="https://youtu.be/x-VLvxWeSZY?si=r-3njdMO1umyEiGY" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="article">
+                    <img class="foto" src="ridwan.jpg">
+                    <br>
+                    <h1>Siswa SMKN 1 Majalengka Ciptakan Sepeda Motor Listrik</h1>
+                    <br>
+                    <p><span>Majalengka</span> -- Maraknya kendaraan listrik telah memotivasi pelajar Sekolah Menengah
+                        Kejuru... </p>
+                    <br>
+                    <a href="https://jabar.inews.id/berita/keren-pisan-siswa-smkn-1-majalengka-ciptakan-sepeda-motor-listrik-dari-barang-bekas"
+                        class="btn btn-primary">Read More</a>
+                </div>
+                <div class="article">
+                    <img class="foto" src="rn.jpg">
+                    <br>
+                    <h1>Info PPDB SMK Negeri 1 Majalengka Tahun Ajaran 2021/2022</h1>
+                    <br>
+                    <p><span>Pengumuman</span> -- Berdasarkan hasil keputusan dewan guru mengenai PPDB Tahap 2,
+                        Alhamdulillah...</p>
+                    <br>
+                    <a href="https://smkn1majalengka.sch.id/detailpost/informasi-daftar-ulang-ppdb-tahap-2"
+                        class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <hr/>
+    
+
+        <!-- End About Section -->
+
+        <section id="misi"></section>
+        <div class="section blog-section misi active-section" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class=" visi_misi">
+                            <h2 class="text-center"><span><b>MISI</b></span></h2>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 item">
+                                    <div class="mask" style="background-color: yellow;"></div><span>
+                                        <li>Meningkatkan mutu pendidikan yang mengintegrasikan system nilai agama dan
+                                            budaya dengan ilmu pengetahuan dan teknologi.
+                                    </span></li>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <class style="background-color: yellow;">
+                                        </style><span>
+                                            <li>Mengembangkan komponen seluruh sekolah secara optimal baik dalam bidang
+                                                akademis maupun non akademis dan berwawasan lingkungan sehingga mampu
+                                                bersaing secara global.
+                                        </span></li>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 item">
+                                    <class style="background-color: yellow;">
+                                        </style><span>
+                                            <li>Menanamkan kedisiplinan melalui budaya bersih, budaya tertib, dan budaya
+                                                kerja.
+                                        </span></li>
+                                </div>
+                                <div class="col-md-6 col-sm-12 item">
+                                    <class style="background-color: yellow;">
+                                        </style><span>
+                                            <li>Mengedepankan pendidikan karakter dengan meningkatkan budi pekerti serta
+                                                meningkatkan jiwa nasionalisme yang kuat dan bermartabat.
+                                        </span></li>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 item">
+                                    <class style="background-color: yellow;">
+                                        </style><span>
+                                            <li>Menumbuhkan budaya gemar membaca dengan program literasi yang didukung
+                                                perpustakaan yang lengkap dan berkualitas.
+                                        </span></li>
+                                </div>
+                                <div class="col-md-6 col-sm-12 item">
+                                    <class style="background-color: yellow;">
+                                        </style><span>
+                                            <li>Menciptakan lingkungan sekolah yang kondusif, aman, nyaman, tentram,
+                                                damai, tertib, disiplin, sehat kekeluargaan dan penuh tanggung jawab.
+                                        </span></li>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <hr/>
+            
+
+    
+
+                <section id="jurusan">
+                    <div class="container course pb-5 pt-5">
+                        <h2 class="h1-responsive font-weight-bold text-center my-4"><b>Jurusan</b></h2>
+                        <!--Section description-->
+                        <p class="text-center w-responsive mx-auto mb-5">Berikut beberapa jurusan yang ada di SMKN
+                            Majalengka:</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-komputer-jaringan.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teknik Komputer Jaringan</h5>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-rpl.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rekayasa Perangkat Lunak</h5>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-gambar-bangunan.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teknik Gambar Bangunan</h5>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-otomotif.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teknik Kendaraan Ringan</h5>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-sepeda-motor.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teknik Sepeda Motor</h5>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-permesinan.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teknik Permesinan</h5>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card box">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="teknik-elektro.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Teknik Elektro</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </section>
+                <br>
+                <hr/>
+                <br>
+                
+            
+
+                <section id="galerry">
+                    <div class="container">
+                        <h2 class="h1-responsive font-weight-bold text-center my-4"><b>Galerry</b></h2>
+                        <!--Section description-->
+                        <p class="text-center w-responsive mx-auto mb-5">Beberapa Potret Kegiatan yang telah
+                            dilaksanakan oleh SMKN 1 Majalengka</p>
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <img src="https://lh5.googleusercontent.com/p/AF1QipPsdEnSAFfOOhaeP4XbkFJo4jZ2M2YzXnaGxp-L=w500-h500-k-no"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                                <img src="https://www.patrolicyber.com/wp-content/uploads/2023/06/photostudio_1686699192746-600x375.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="https://www.gamelab.id/uploads/modules/MARKETING/Kunjungan%20Industri%20SMKN%201%20Majalengka%20-%20GAMELAB.ID%20(4).jpg?1687759795930"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                                <img src="https://www.gamelab.id/uploads/modules/smk%201%20majalengka.jpg?1657098964962"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img src="https://i.ytimg.com/vi/WrBrobthaMw/maxresdefault.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                                <img src="https://api.webdisdik.jabarprov.go.id/storage/disdik_web/assets/news/img/attachment-1686139764532.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                            </div>
+                        </div>
+                        <!-- Gallery -->
+                    </div>
+                </section>
+                <br>
+                <hr>
+                <br>
+
+
+                <section id="contact">
+                    <div class="container mb-5">
+                        <!--Section: Contact v.2-->
+                        <section class="mb-4">
+
+                            <!--Section heading-->
+                            <h2 class="h1-responsive font-weight-bold text-center my-4"><b>Contact</b></h2>
+                            <!--Section description-->
+                            <p class="text-center w-responsive mx-auto mb-5">Kontak Kami Jika Anda Butuh Bantuan.</p>
+
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6 mb-md-0 mb-5">
+                                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                        <!--Grid row-->
+                                        <div class="row">
+
+                                            <!--Grid column-->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="">Your name</label>
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+
+                                            <!--Grid column-->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="">Your email</label>
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="subject" name="subject" class="form-control">
+                                                    <label for="subject" class="">Subject</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+
+                                                <div class="md-form">
+                                                    <textarea type="text" id="message" name="message" rows="2"
+                                                        class="form-control md-textarea"></textarea>
+                                                    <label for="message">Your message</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                    </form>
+
+                                    <div class="text-center text-md-left">
+                                        <a class="btn btn-primary"
+                                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                                    </div>
+                                    <div class="status"></div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6 text-center">
+                                    "<iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15845.926860917147!2d108.245507!3d-6.8327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f25e34584607f%3A0xfc1ced4877ff3283!2sSMKN%201%20Majalengka!5e0!3m2!1sen!2sus!4v1701850233585!5m2!1sen!2sus"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+
+                        </section>
+                        <!--Section: Contact v.2-->
+                    </div>
+                </section>
+                <br>
+                <hr/>
+                <br>
+                
+
+                <!-- Footer -->
+                <footer class="text-center text-lg-start py-4 pb-5 mt-5 me-100%text-black w-100%"
+                    style="background-color: white;">
+
+                    <!-- Section: Social media -->
+
+                    <!-- Section: Links  -->
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <!-- Grid row -->
+                            <div class="row mt-5">
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                    <!-- Content -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        <i class="bi bi-gem me-3"></i>SMKN 1 MAJALENGKA
+                                    </h6>
+                                    <p>
+
+                                        Teknologi Informasi Web menjadi sarana bagi SMK Negeri 1 Majalengka untuk
+                                        memberi pelayanan informasi secara cepat, jelas, dan akuntable.
+
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Products
+                                    </h6>
+                                    <p>
+                                        <a href="#home" class="text-reset">Home</a>
+                                    </p>
+                                    <p>
+                                        <a href="#profil" class="text-reset">Profil</a>
+                                    </p>
+                                    <p>
+                                        <a href="#update" class="text-reset">Update</a>
+                                    </p>
+                                    <p>
+                                        <a href="#misi" class="text-reset">Misi</a>
+                                    </p>
+                                    <p>
+                                        <a href="#jurusan" class="text-reset">Jurusan</a>
+                                    </p>
+                                    <p>
+                                        <a href="#galerry" class="text-reset">Galerry</a>
+                                    </p>
+                                    <p>
+                                        <a href="#contact" class="text-reset">Contact</a>
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Useful links
+                                    </h6>
+                                    <p>
+                                        <a href="#profil" class="text-reset">Pricing</a>
+                                    </p>
+                                    <p>
+                                        <a href="#profil" class="text-reset">Settings</a>
+                                    </p>
+                                    <p>
+                                        <a href="#contact" class="text-reset">Orders</a>
+                                    </p>
+                                    <p>
+                                        <a href="#contact" class="text-reset">Help</a>
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Contact
+                                    </h6>
+                                    <p><i class="fi fi-rr-location-alt me-1"></i><a
+                                            href="https://maps.app.goo.gl/tyN8oQqTgmowq4rR7">Jl. Raya Tonjong-Pinangraja
+                                            No. 55 Majalengka</a></p>
+                                    <p>
+                                        <i class="bi bi-envelope"></i><a
+                                            href="mailto:nfo@smkn1majalengka.sch.id">info@smkn1majalengka.sch.id</a>
+                                    </p>
+                                    </p>
+                                    <p><i class="bi bi-phone me-1"></i> + (0233) 282913</p>
+                                    <p><i class="bi bi-instagram me-1"></i> <a
+                                            href="https://instagram.com/smkn1majalengka/"> @smkn1majalengka</a></p>
+                                    <p><i class="bi bi-facebook me-1"></i> <a
+                                            href="https://m.facebook.com/SMKN1Majalengka/"> SMKN 1 Majalengka</a></p>
+                                    <p><i class="bi bi-youtube me-1"></i> <a
+                                            href="https://youtube.com/@SMKNegeri1Majalengka?si=9zXl0WleNA2op3c8">
+                                            @SMKNegeri1Majalengka</a></p>
+                                    <p><i class="bi bi-twitter me-1"></i> <a href="https://x.com/smknmajalengka?s=20">
+                                            @smknmajalengka</a></p>
+                                </div>
+                                <!-- Grid column -->
+                            </div>
+                            <!-- Grid row -->
+                        </div>
+                    </section>
+                    <!-- Section: Links  -->
+                    
+
+                    <!-- Copyright -->
+                    <div class="text-center py-4" style="background-color: yellow;">
+                        © 2023 Copyright:
+                        <a class="text-reset fw-bold" href="https://instagram.com/reghinaac/">Reghina Cahya</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
